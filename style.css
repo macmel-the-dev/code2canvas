@@ -168,7 +168,10 @@ nav ul li a {
   }
   .list-dep {
     transition: color .2s;
-    color: #FFFFFF;
+    background: -webkit-linear-gradient(270deg, #E3E3E3 0%, #FFEEEE 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    max-width: max-content;
     display: inline-block;
     font-family: oneplus; 
     font-size: 20px;
